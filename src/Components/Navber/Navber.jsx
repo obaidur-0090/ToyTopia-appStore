@@ -24,7 +24,7 @@ function Navber() {
 
   const navItems = (
     <>
-      <NavLink to="/" end onClick={() => setMenuOpen(false)}>Home</NavLink>
+      <NavLink className='' to="/" end onClick={() => setMenuOpen(false)}>Home</NavLink>
       <NavLink to="/community" onClick={() => setMenuOpen(false)}>Play community</NavLink>
       <NavLink to="/profile" onClick={() => setMenuOpen(false)}>My profile</NavLink>
     </>

@@ -5,6 +5,7 @@ import { toast } from 'react-toastify'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import { toys } from '../../data/toys'
+import { ArrowRightFromLine, Unlink } from 'lucide-react'
 
 const slides = [
   {
@@ -70,11 +71,11 @@ function Home() {
             <SwiperSlide key={slide.title}>
               <div className={`hero-slide hero-${slide.tone}`}>
                 <div className="hero-copy">
-                  <span className="eyebrow"><span className="sparkle">✳</span> {slide.eyebrow}</span>
+                  <span className="eyebrow"><span className="sparkle">#</span> {slide.eyebrow}</span>
                   <h1>{slide.title}</h1>
                   <p>{slide.copy}</p>
                   <a className="button button-primary" href="#popular">Explore the toy shop <span>→</span></a>
-                  <div className="hero-proof"><span className="proof-avatars">☺ ☻ ☺</span> Loved by little dreamers & their grown-ups</div>
+                  <div className="hero-proof"><span className=""><ArrowRightFromLine /></span> Loved by little dreamers & their grown-ups</div>
                 </div>
                 <div className="hero-art">
                   <div className="hero-blob" />
