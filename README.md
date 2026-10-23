@@ -3,9 +3,10 @@
 ToyTopia is a playful local kids' toy marketplace concept that helps families discover thoughtful toys from neighborhood sellers. Visitors can explore toy listings and details, while signed-in users can manage a profile and share ratings and reviews with the play community.
 
 
-# Live link (Firebase Hosting):
 
-[Visit My Website](https://toy-kid-74c1e.web.app/){:target="_blank"}
+## Live link (Firebase Hosting):
+
+<a href="https://toy-kid-74c1e.web.app/" target="_blank" rel="noopener noreferrer">Visit My Website</a>
 
 
 ## Features
