@@ -1,12 +1,12 @@
 import { initializeApp } from 'firebase/app'
 import { getAuth } from 'firebase/auth'
 const firebaseConfig = {
-  apiKey: "AIzaSyCE4lm5Y3tIAl7zAgOv0rTrCBpeGKSyny8",
-  authDomain: "toy-kid-74c1e.firebaseapp.com",
-  projectId: "toy-kid-74c1e",
-  storageBucket: "toy-kid-74c1e.firebasestorage.app",
-  messagingSenderId: "235353141462",
-  appId: "1:235353141462:web:a48db4740e30c0d8715977"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 const requiredFirebaseConfig = ['apiKey', 'authDomain', 'projectId', 'appId']

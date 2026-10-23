@@ -35,7 +35,7 @@ function Navber() {
       <nav className="site-nav" aria-label="Main navigation">
         <Link className="brand" to="/" aria-label="ToyTopia home">
           <img src={image} alt="logo image" />
-          <span className="brand-name">toy<span>topia</span><small>little joys, made nearby</small></span>
+          <span className="brand-name">toy<span>topia</span><small>Developed by Md.Obaidur Rahman</small></span>
         </Link>
         <button
           type="button"
